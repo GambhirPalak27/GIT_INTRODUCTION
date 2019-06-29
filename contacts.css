@@ -1,0 +1,59 @@
+.addcontact {
+    background-color:lightblue;
+    width:600px;
+    font-size:20px;
+    height:250px;
+    position:relative;
+    left:400px;
+    border:2px darkblue solid;
+    border-radius:12px;
+}
+.addcontact input[type=button] {
+    position:absolute;
+    left:220px;
+    margin:10px;
+    padding:10px;
+    box-shadow: 2px 2px 5px;
+}
+input {
+    border-radius:12px;
+}
+input:hover {
+    background-color:lightgray;
+}
+
+.showcontact {
+    display:inline-block;
+    margin:30px;
+    background-color:#DE8B14;
+    width:400px;
+    font-size:20px;
+    height:400px;
+    position:relative;
+    left:20px;
+    border:2px darkblue solid;
+    border-radius:12px;
+}
+.imgoutput {
+    margin-top:10px;
+    border-radius:50%;
+    position: relative;
+    left:150px;
+}
+.showcontact>p {
+    position:relative;
+    left:20px;
+    margin:20px;
+    height:40px;
+    width:200px;
+
+}
+
+.showcontact>button {
+    margin-left:80px;
+    padding:10px;
+    height:40px;
+    width: 80px;
+    box-shadow: 2px 2px 5px;
+
+}
